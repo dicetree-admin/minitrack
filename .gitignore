@@ -1,0 +1,66 @@
+# 동영상 소스
+source/
+
+# Python 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+/kivy_android/__pycache__/
+
+# Python 가상 환경
+venv/
+env/
+.env/
+.venv/
+.venv*
+/old/venv
+/kivy_android/venv
+/webapp/venv
+
+# Log 폴더
+logs/
+/kivy_android/logs/
+
+# IDE 관련 파일
+.idea/
+/kivy_android/.idea/
+.vscode/
+/kivy_android/.vscode/
+*.swp
+/kivy_android/*.swp
+.DS_Store
+/kivy_android/.DS_Store
+
+# FE 관련 파일
+node_modules
+dist
+dev-dist/
+*.local
+
+# debug 시 생성되는 local files (temp yml files)
+*.temp.yml
+
+
+# 기타 소스
+old/
+
+kivy_android/training/
+yolo*
+
+/kivy_android/build/
+
+webapp/training/
+webapp/test/
+webapp/output/
+webapp/static/source/origin/
+webapp/dataprep/DeepSeek_VL2
+webapp/static/output/
+
+
+backend/uploads/
+backend/results/
+backend/temp/
+backend/processed/
+backend/test_frames/
+*.mp4
+.env

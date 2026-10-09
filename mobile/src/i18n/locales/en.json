@@ -1,0 +1,69 @@
+{
+  "splash": {
+    "subtitle": "Golf Ball Tracking",
+    "description": "Track and visualize golf ball trajectory with advanced computer vision technology",
+    "loading": "Loading backend services..."
+  },
+  "main": {
+    "greeting": "Welcome back,",
+    "features": "Features",
+    "ballTracking": "Ball Tracking",
+    "ballTrackingDesc": "Upload your golf swing video to track and visualize the ball trajectory",
+    "swingRecording": "Swing Recording",
+    "swingRecordingDesc": "Record and analyze your golf swing in real-time (Coming Soon)",
+    "quickAccess": "Quick Access",
+    "mySwings": "My Swings",
+    "settings": "Settings",
+    "help": "Help"
+  },
+  "ballTracking": {
+    "uploadTitle": "Upload Golf Video",
+    "uploadDescription": "Select a video of your golf swing to analyze the ball trajectory. Make sure the golf ball is clearly visible throughout the swing.",
+    "selectVideo": "Select Video",
+    "videoSelected": "Video selected successfully",
+    "startProcessing": "Start Analysis",
+    "processing": "Analyzing Ball Trajectory",
+    "uploading": "Uploading video...",
+    "extractingFrames": "Extracting video frames...",
+    "stabilizing": "Applying image stabilization...",
+    "detectingBall": "Detecting golf ball...",
+    "trackingTrajectory": "Tracking ball trajectory...",
+    "complete": "Analysis complete!",
+    "processingSteps": "Processing Steps:",
+    "step1": "Frame extraction and stabilization",
+    "step2": "Golf ball detection in frames",
+    "step3": "Hit moment identification",
+    "step4": "Trajectory calculation and visualization",
+    "instructions": "Instructions:",
+    "instruction1": "Record your golf swing with the ball clearly visible",
+    "instruction2": "Ensure good lighting and stable camera position",
+    "instruction3": "Keep the golf ball in frame throughout the swing",
+    "selectVideoError": "Please select a video first",
+    "processingError": "Failed to process video. Please try again."
+  },
+  "result": {
+    "analysisComplete": "Analysis Complete!",
+    "analysisCompleteMessage": "Golf ball trajectory has been successfully analyzed and visualized in your video.",
+    "trajectoryAdded": "Ball trajectory has been added to your video",
+    "analysisInfo": "Analysis Information",
+    "processingId": "Processing ID",
+    "completedAt": "Completed At",
+    "ballDetected": "Ball Detected",
+    "trajectoryPoints": "Trajectory Points",
+    "yes": "Yes",
+    "saveToGallery": "Save to Gallery",
+    "shareVideo": "Share Video",
+    "viewMySwings": "View My Swing Videos",
+    "tips": "Tips for Better Results",
+    "tip1": "Use good lighting and avoid shadows on the golf ball",
+    "tip2": "Keep the camera steady and the ball in frame",
+    "tip3": "Record from a side angle for best trajectory visibility",
+    "saved": "Saved",
+    "savedMessage": "Video has been saved to your gallery",
+    "saveError": "Failed to save video to gallery",
+    "playbackError": "Failed to play video"
+  },
+  "error": {
+    "title": "Error"
+  }
+}

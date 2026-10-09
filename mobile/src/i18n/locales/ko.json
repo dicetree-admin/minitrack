@@ -1,0 +1,69 @@
+{
+  "splash": {
+    "subtitle": "골프공 궤적 추적",
+    "description": "첨단 컴퓨터 비전 기술로 골프공의 궤적을 추적하고 시각화합니다",
+    "loading": "백엔드 서비스 로딩 중..."
+  },
+  "main": {
+    "greeting": "안녕하세요,",
+    "features": "기능",
+    "ballTracking": "Ball Tracking",
+    "ballTrackingDesc": "골프 스윙 영상을 업로드하여 공의 궤적을 추적하고 시각화합니다",
+    "swingRecording": "Swing Recording",
+    "swingRecordingDesc": "실시간으로 골프 스윙을 녹화하고 분석합니다 (출시 예정)",
+    "quickAccess": "빠른 접근",
+    "mySwings": "내 스윙영상",
+    "settings": "설정",
+    "help": "도움말"
+  },
+  "ballTracking": {
+    "uploadTitle": "골프 영상 업로드",
+    "uploadDescription": "골프 스윙 영상을 선택하여 공의 궤적을 분석합니다. 스윙 전체에서 골프공이 명확히 보이는지 확인해주세요.",
+    "selectVideo": "영상 선택",
+    "videoSelected": "영상이 선택되었습니다",
+    "startProcessing": "분석 시작",
+    "processing": "골프공 궤적 분석 중",
+    "uploading": "영상 업로드 중...",
+    "extractingFrames": "영상 프레임 추출 중...",
+    "stabilizing": "이미지 안정화 적용 중...",
+    "detectingBall": "골프공 감지 중...",
+    "trackingTrajectory": "공 궤적 추적 중...",
+    "complete": "분석 완료!",
+    "processingSteps": "처리 단계:",
+    "step1": "프레임 추출 및 안정화",
+    "step2": "프레임에서 골프공 감지",
+    "step3": "타격 순간 식별",
+    "step4": "궤적 계산 및 시각화",
+    "instructions": "사용법:",
+    "instruction1": "골프공이 명확히 보이는 스윙 영상을 촬영하세요",
+    "instruction2": "충분한 조명과 안정된 카메라 위치를 확보하세요",
+    "instruction3": "스윙 전체에서 골프공이 프레임 안에 있도록 하세요",
+    "selectVideoError": "먼저 영상을 선택해주세요",
+    "processingError": "영상 처리에 실패했습니다. 다시 시도해주세요."
+  },
+  "result": {
+    "analysisComplete": "분석 완료!",
+    "analysisCompleteMessage": "골프공 궤적이 성공적으로 분석되어 영상에 시각화되었습니다.",
+    "trajectoryAdded": "공 궤적이 영상에 추가되었습니다",
+    "analysisInfo": "분석 정보",
+    "processingId": "처리 ID",
+    "completedAt": "완료 시간",
+    "ballDetected": "공 감지",
+    "trajectoryPoints": "궤적 포인트",
+    "yes": "예",
+    "saveToGallery": "갤러리에 저장",
+    "shareVideo": "영상 공유",
+    "viewMySwings": "내 스윙영상 보기",
+    "tips": "더 나은 결과를 위한 팁",
+    "tip1": "좋은 조명을 사용하고 골프공에 그림자가 지지 않도록 하세요",
+    "tip2": "카메라를 안정적으로 고정하고 공을 프레임 안에 유지하세요",
+    "tip3": "궤적이 잘 보이도록 측면에서 촬영하세요",
+    "saved": "저장됨",
+    "savedMessage": "영상이 갤러리에 저장되었습니다",
+    "saveError": "갤러리 저장에 실패했습니다",
+    "playbackError": "영상 재생에 실패했습니다"
+  },
+  "error": {
+    "title": "오류"
+  }
+}
